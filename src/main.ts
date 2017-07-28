@@ -1,4 +1,5 @@
-import { enableProdMode } from '@angular/core';
+import { createPlatform, createPlatformFactory, enableProdMode, Injector, InjectionToken,
+  NgModuleRef, Provider, Type, NgModuleFactory, ReflectiveKey, PlatformRef } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';

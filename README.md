@@ -1,6 +1,6 @@
 # AngularInversifyPoc
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4. This is a POC of how to use an InversifyJS container within an Angular application.
 
 ## Development server
 

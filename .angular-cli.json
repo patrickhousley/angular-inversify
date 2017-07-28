@@ -21,7 +21,8 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -35,6 +36,14 @@
     }
   },
   "lint": [
+    {
+      "project": "root-ioc/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "root-ioc/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
     {
       "project": "src/tsconfig.app.json",
       "exclude": "**/node_modules/**"
